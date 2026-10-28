@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="DC Music Love — artist development, music production, distribution and creative collaborations.">
+<title>Services | DC Music Love</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="DC Music Love home"><span class="mark">DC</span><span><b>DC MUSIC LOVE</b><small>Music Unites Us</small></span></a>
+    <nav class="links" id="navlinks" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="artists.html">Artists</a><a href="services.html">Services</a><a href="network.html">Our Network</a><a href="contact.html">Contact</a>
+    </nav>
+    <button class="pill" onclick="openModal()">Join Our Family ↗</button>
+    <button class="menu" onclick="document.getElementById('navlinks').classList.toggle('open')" aria-label="Toggle menu">☰</button>
+  </div>
+</header><main><section class="section" style="padding:58px 0 35px"><div class="wrap"><div class="eyebrow">From first note to wider reach</div><h2 style="font-size:clamp(32px,4vw,52px);margin:12px 0"><span class="gold">Built for the whole journey.</span></h2><p class="section-intro">A creative home for talent, music and meaningful partnerships.</p></div></section><section class="section services" id="services"><div class="wrap">
+ <div class="eyebrow">From first note to wider reach</div><h2>Built for the <span class="gold">whole journey.</span></h2><p class="section-intro" style="margin-top:14px">A creative home for talent, music and meaningful partnerships.</p>
+ <div class="service-grid">
+  <article class="service"><div class="symbol">♫</div><h3>Artist Development</h3><p>Creative direction, identity and career-building support that helps artists define their sound and their next move.</p></article>
+  <article class="service"><div class="symbol">◉</div><h3>Music & Visual Production</h3><p>Shape a distinctive sound and bring each release to life with compelling visual storytelling.</p></article>
+  <article class="service"><div class="symbol">⇧</div><h3>Distribution & Promotion</h3><p>Plan release campaigns, grow discoverability and help music connect with new listeners.</p></article>
+  <article class="service"><div class="symbol">✧</div><h3>Brand Partnerships</h3><p>Connect artists and brands through authentic collaborations with a clear creative purpose.</p></article>
+  <article class="service"><div class="symbol">♬</div><h3>Events & Experiences</h3><p>Build energy around music through live performances, showcases and community experiences.</p></article>
+  <article class="service"><div class="symbol">◎</div><h3>Creative Network</h3><p>Bring artists, producers, promoters and industry partners into the same conversation.</p></article>
+ </div>
+</div></section></main><footer><div class="wrap"><div class="footer-top"><a class="brand" href="index.html"><span class="mark">DC</span><span><b>DC MUSIC LOVE</b><small>Music Unites Us</small></span></a><div class="footer-links"><a href="#about">About</a><a href="#artists">Artists</a><a href="#services">Services</a><a href="#network">Our Network</a><a href="#contact">Contact</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> DC Music Love · Concept website preview</span><span>Designed to connect music, people and possibility.</span></div></div></footer><div class="modal" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button class="close" onclick="closeModal()" aria-label="Close">×</button><div class="eyebrow">Let's connect</div><h2 id="modalTitle">Start a conversation.</h2><p>This demo form is a visual preview. Before launch, connect it to the company's approved email or contact system.</p><form id="demoForm"><label for="name">Your name</label><input id="name" required placeholder="Name"><label for="email">Email address</label><input id="email" type="email" required placeholder="you@example.com"><label for="interest">I'm interested in</label><select id="interest"><option>Artist opportunities</option><option>Production or distribution</option><option>Brand partnership</option><option>Events and collaboration</option><option>Other</option></select><label for="message">Tell us a little more</label><textarea id="message" placeholder="What would you like to create?"></textarea><div class="modal-actions"><button class="pill" type="submit">Prepare enquiry ↗</button><button class="pill outline" type="button" onclick="closeModal()">Cancel</button></div><p id="formNote" style="font-size:12px;margin-bottom:0"></p></form></div></div>
+<script src="script.js" defer></script></body></html>

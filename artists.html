@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="DC Music Love — artist development, music production, distribution and creative collaborations.">
+<title>Artists | DC Music Love</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="DC Music Love home"><span class="mark">DC</span><span><b>DC MUSIC LOVE</b><small>Music Unites Us</small></span></a>
+    <nav class="links" id="navlinks" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="artists.html">Artists</a><a href="services.html">Services</a><a href="network.html">Our Network</a><a href="contact.html">Contact</a>
+    </nav>
+    <button class="pill" onclick="openModal()">Join Our Family ↗</button>
+    <button class="menu" onclick="document.getElementById('navlinks').classList.toggle('open')" aria-label="Toggle menu">☰</button>
+  </div>
+</header><main><section class="section" style="padding:58px 0 35px"><div class="wrap"><div class="eyebrow">The talent behind the sound</div><h2 style="font-size:clamp(32px,4vw,52px);margin:12px 0"><span class="gold">Real talent. Global dreams.</span></h2><p class="section-intro">Every artist has a story. We want to help those stories find their audience, build a community and make a lasting impression.</p></div></section><section class="section" id="artists"><div class="wrap">
+ <div class="section-head"><div><div class="eyebrow">The talent behind the sound</div><h2>Real talent.<br><span class="gold">Global dreams.</span></h2></div><p class="section-intro">Every artist has a story. We want to help those stories find their audience, build a community and make a lasting impression.</p></div>
+ <div class="artist-grid">
+  <article class="artist"><img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800&q=85" alt="Portrait representing an artist"><div class="artist-info"><span class="artist-tag">Artist spotlight</span><h3>Gibz Meck</h3><p>Zimbabwe · Artist profile</p></div></article>
+  <article class="artist"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85" alt="Portrait representing a music artist"><div class="artist-info"><span class="artist-tag">Artist spotlight</span><h3>Decarpo Dayz</h3><p>Zimbabwe · Artist profile</p></div></article>
+  <article class="artist"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85" alt="Portrait representing emerging talent"><div class="artist-info"><span class="artist-tag">Your next discovery</span><h3>The next voice</h3><p>New talent · Your story starts here</p></div></article>
+ </div>
+ <p style="font-size:11px;color:#888;margin-top:14px">Artist names and imagery are presented as a concept preview. Confirm artist participation and replace imagery with approved press photos before launch.</p>
+</div></section></main><footer><div class="wrap"><div class="footer-top"><a class="brand" href="index.html"><span class="mark">DC</span><span><b>DC MUSIC LOVE</b><small>Music Unites Us</small></span></a><div class="footer-links"><a href="#about">About</a><a href="#artists">Artists</a><a href="#services">Services</a><a href="#network">Our Network</a><a href="#contact">Contact</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> DC Music Love · Concept website preview</span><span>Designed to connect music, people and possibility.</span></div></div></footer><div class="modal" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button class="close" onclick="closeModal()" aria-label="Close">×</button><div class="eyebrow">Let's connect</div><h2 id="modalTitle">Start a conversation.</h2><p>This demo form is a visual preview. Before launch, connect it to the company's approved email or contact system.</p><form id="demoForm"><label for="name">Your name</label><input id="name" required placeholder="Name"><label for="email">Email address</label><input id="email" type="email" required placeholder="you@example.com"><label for="interest">I'm interested in</label><select id="interest"><option>Artist opportunities</option><option>Production or distribution</option><option>Brand partnership</option><option>Events and collaboration</option><option>Other</option></select><label for="message">Tell us a little more</label><textarea id="message" placeholder="What would you like to create?"></textarea><div class="modal-actions"><button class="pill" type="submit">Prepare enquiry ↗</button><button class="pill outline" type="button" onclick="closeModal()">Cancel</button></div><p id="formNote" style="font-size:12px;margin-bottom:0"></p></form></div></div>
+<script src="script.js" defer></script></body></html>
